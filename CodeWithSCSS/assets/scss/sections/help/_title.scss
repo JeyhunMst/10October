@@ -1,0 +1,11 @@
+#education{
+    .title::after{
+        @include after-title;
+    }
+}
+
+#why-code{
+    .title::after{
+        @include after-title($size:160px);
+    }
+}

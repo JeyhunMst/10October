@@ -1,0 +1,14 @@
+%button-default {
+    background-color: purple;
+    color: white;
+    width: 140px;
+    height: 58px;
+    position: absolute;
+    top: 80%;
+    transition: 0.5s;
+}
+
+%button-hover{
+    background-color: white;
+    color: black;
+}

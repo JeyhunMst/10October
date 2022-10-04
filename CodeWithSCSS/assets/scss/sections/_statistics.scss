@@ -1,0 +1,38 @@
+#statistics{
+
+    .background-img{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(/assets/images/main/stat/img-back.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .col-lg-3{
+
+        .card{
+            background-color: transparent;
+            border: 0px;
+            margin-top: 40px;
+            color: white;
+            margin-left: 10px;
+
+            h2{
+                font-size: 100px;
+            }
+
+            h4{
+                font-size: 35px;
+            }
+        }
+    }
+
+    .title{
+        
+        h4{
+            position: relative;
+            left: 22%;
+            font-size: 24px;
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+@mixin hover-card($theme:Blueviolet,$color:White) {
+    background-color: $theme;
+    color: $color;
+    transform: scale(1.06);
+    z-index: 9998;
+}
+
+@mixin  after-title($size:90px ,$percent:0%){
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-image: linear-gradient(to  right, rgb(255, 56, 56), rgb(50, 255, 50),#6565df);
+    position: absolute;
+    top: $size;
+    left: $percent;
+}

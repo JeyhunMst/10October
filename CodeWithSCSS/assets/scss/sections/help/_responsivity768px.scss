@@ -1,0 +1,153 @@
+@media only screen and (max-width: 768px){
+
+    .icon-social{
+
+        position: absolute;
+        left: 60%;
+    }
+    
+    .icon-phone{
+        opacity: 1;
+        position: absolute;
+        left: 70%;
+    }
+
+    #education{
+
+        .col-6{
+            width: 100%;
+        }
+
+        .card{
+            min-width: 500px;
+            max-height: 200px;
+            padding: 20px;
+            transition: 0.5s;  
+        }
+    }
+
+    #why-code{
+
+        .col-6{
+
+            .image{
+                display: none;
+            }
+
+            .container{
+
+                .col-6{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    #statistics{
+        .col-lg-3{
+            width: 60%;
+
+            .card{
+
+                h2{
+                    text-align: center;
+                    font-size: 40px;
+                }
+
+                h4{
+                    text-align: center;
+                    font-size: 25px;
+                }
+            }
+
+            .title{
+
+                h4{
+                    position: relative;
+                    left: 0%;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    #comments{
+
+        .col-6{
+
+            img{
+                position: relative;
+                left: 54%;
+            }
+        }
+    }
+
+    #partners{
+
+        .col-2{
+            width: 100%;
+        }
+    }
+
+    #our-students{
+
+        .col-2{
+            width: 33%;
+        }
+
+        .title{
+            position: relative;
+            left: 20%;
+        }
+    }
+
+    #question{
+        height: 560px;
+
+        .question{
+            .message{
+                position: relative;
+                left: 0%;
+            }
+
+            button.btn{
+                max-width: 200px;
+            }
+            
+            .ux input{
+                min-width: 200px;
+            }
+
+            .numb input{
+                position: absolute;
+                left: 65%;
+                min-width: 200px;
+            }
+
+            .name input{
+                width: 100px;
+            }
+
+            .surname input{
+                width: 100px;
+                position: absolute;
+                left: 70%;
+            }
+        }
+    }
+
+    .footer-bottom{
+        .col-4{
+            width: 100%;
+        }
+
+        .passage{
+            display: none;
+        }
+
+        .col-4{
+            position: relative;
+            left: 25%;
+        }
+    }
+}

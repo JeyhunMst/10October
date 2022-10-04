@@ -1,0 +1,33 @@
+#our-students{
+    margin-top: 200px;
+
+    .title{
+        position: relative;
+        left: 35%;
+        margin-bottom: 40px;
+
+        h2{
+            position: relative;
+            font-size: 50px;
+        }
+
+        h2::after{
+            @include after-title($size:140px,$percent:5%);
+        }
+
+        span{
+            font-weight: lighter;
+        }
+    }
+
+    img{
+        margin-top: 20px;
+        max-width: 140px;
+        max-height: 140px;
+        transition: 0.3s;
+    }
+
+    img:hover{
+        transform: scale(1.2);
+    }
+}

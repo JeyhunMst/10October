@@ -1,0 +1,158 @@
+@media only screen and (max-width: 992px){
+
+    .navbars{
+        display: none;
+    }
+    .icon-search{
+        display: none;
+    }
+    .headbt{
+        display: none;
+    }
+    .icon-social{
+        opacity: 1;
+        position: absolute;
+        left: 70%;
+    }
+    .icon-phone{
+        opacity: 1;
+        position: absolute;
+        left: 77%;
+    }
+    .icon-menu{
+        opacity: 1;
+        position: absolute;
+        left: 82%;
+    }
+    .icon-social img ,.icon-phone img {
+        max-width: 35px;
+        max-height: 35px;
+    }
+
+    #education{
+
+        .col-6{
+            
+            .container-md {
+
+                .col-6{
+                    width: 60%;
+                }
+            }   
+        }
+
+        .card{
+
+            min-width: 350px;
+            max-height: 200px;
+            padding: 20px;
+            transition: 0.5s;
+        }
+    }
+
+    #why-code{
+        
+        .col-6{
+            width: 100%;
+
+            .container{
+
+                .col-6{
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+    #statistics{
+
+        .title{
+
+            h4{
+                left: 0%;
+                margin-top: 20px;
+                max-width: 600px;
+            }
+        }
+
+        .col-lg-3{
+
+            .card{
+                margin-left: 30px;
+
+                h2{
+                    font-size: 30px;
+                }
+
+                h4{
+                    font-size: 20px;
+                    max-width: 100px;
+                }
+            }
+
+
+        }
+    }
+
+    #comments{
+
+        .col-6{
+
+            img{
+                position: relative;
+                left: 60%;
+            }
+        }
+
+        .title{
+            position: relative;
+            left: 10%;
+        }
+
+        .comment{
+            position: relative;
+            left: 8%;
+        }
+    }
+
+    #partners{
+
+        .title{
+            position: relative;
+            left: 20%;
+        }
+
+        .message{
+            position: relative;
+            left: 10%;
+        }
+
+        .col-2{
+            width: 33%;
+        }
+    }
+
+    #our-students{
+        .col-2{
+            width: 25%;
+        }
+
+        .title{
+            position: relative;
+            left: 20%;
+        }
+    }
+
+    .question{
+
+        .title{
+            position: relative;
+            left: 8%;
+        }
+
+        .message{
+            position: relative;
+            left: 8%;
+        }
+    }
+}

@@ -1,0 +1,57 @@
+#comments{
+    margin-top: 50px;
+
+    .col-6{
+
+        img{
+            max-width: 140px;
+            max-height: 140px;
+            border-radius: 100%;
+            position: relative;
+            left: 75%;
+        }
+    }
+
+    .person{
+
+        .name{
+
+            h4{
+                margin-top: 30px;
+            }
+        }
+
+        .role{
+
+            h5{
+                font-weight: lighter;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .title{
+        position: relative;
+        left: 30%;
+
+        span{
+            font-weight: lighter;
+        }
+
+        h2{
+            font-size: 60px;
+        }
+    }
+
+    .comment{
+        position: relative;
+        left: 25%;
+        max-width: 800px;
+
+        p{
+            font-size: 20px;
+            font-style: italic;
+            font-weight: lighter;
+        }
+    }
+}

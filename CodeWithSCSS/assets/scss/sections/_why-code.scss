@@ -1,0 +1,52 @@
+#why-code{
+    margin-top: 100px;
+
+    .intro{
+        position: relative;
+        left: 12%;
+    }
+
+    .title{
+        position: relative;
+        max-width: 300px;
+
+        h2{
+            font-size: 50px;
+        }
+
+        span{
+            font-weight: lighter;
+        }
+    }
+
+    .paragraph{
+        margin-top: 60px;
+        max-width: 700px;
+    }
+
+
+    .col-6 .card{
+        border: 0px !important;
+        max-width: 600px;
+        max-height: 300px;
+        margin-bottom: 80px;
+    }
+
+    img{
+        max-width: 200px;
+        min-height: 200px;
+        margin-left: 50px;
+    }
+
+
+    .btn-primary{
+        border: 0px;
+        background-color: transparent;
+        color: black;
+    }
+
+    .cont{
+        margin-top: 100px;
+    }
+    
+}

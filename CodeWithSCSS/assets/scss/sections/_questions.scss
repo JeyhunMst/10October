@@ -1,0 +1,101 @@
+#question{
+    background-color: rgb(233, 233, 233);
+    height: 400px;
+
+    .question{
+        margin-top: 250px;
+        position: sticky;
+
+        .title{
+            position: relative;
+            top: 20%;
+            left: 30%;
+
+            h2{
+                font-size: 57px;
+            }
+
+            span{
+                font-weight: lighter;
+            }
+        }
+
+        .message{
+            margin-top: 30px;
+            position: relative;
+            top: 30%;
+            left: 30%;
+            width: 300px;
+        }
+
+        .name{
+
+            input{
+                position: absolute;
+                top: 30%;
+                left: 51%;
+                min-height: 60px;
+                min-width: 180px;
+            }
+        }
+
+        .surname{
+
+            input{
+                position: absolute;
+                top: 30%;
+                left: 64%;
+                min-height: 60px;
+                min-width: 200px;
+            }
+        }
+
+        .num{
+            width: 10%;
+
+            input{
+
+                position: absolute;
+                left: 51%;
+                top: 55%;
+                min-height: 60px;
+                max-width: 80px;
+            }
+        }
+
+        .numb{
+            width: 90%;
+            input{
+                position: absolute;
+                left: 57%;
+                top: 55%;
+                min-height: 60px;
+                min-width: 305px;
+            }
+        }
+
+        .ux{
+            width: 100%;
+
+            input{
+                position: absolute;
+                top: 74%;
+                left: 51%;
+                margin-top: 20px;
+                min-height: 60px;
+                min-width: 400px;
+            }
+        }
+
+        button.btn{
+            background-color: orangered;
+            color: white;
+            position: absolute;
+            left: 51%;
+            top: 110%;
+            min-height: 60px;
+            max-width: 400px;
+            width: 100%;
+        }
+    }
+}

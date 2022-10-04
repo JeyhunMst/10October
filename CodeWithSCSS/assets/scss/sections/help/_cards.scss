@@ -1,0 +1,17 @@
+#education{
+    .marketing:hover{
+        @include hover-card;
+    }
+
+    .programming:hover{
+        @include hover-card($theme:rgb(76, 76, 208));
+    }
+
+    .design:hover{
+        @include hover-card($theme:rgb(255, 247, 0));
+    }
+
+    .system:hover{
+        @include hover-card($theme:rgb(0, 180, 12));
+    }
+}

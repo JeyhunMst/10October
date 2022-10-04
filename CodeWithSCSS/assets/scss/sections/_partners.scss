@@ -1,0 +1,41 @@
+#partners{
+    margin-top: 160px;
+
+    .title{
+        position: relative;
+        left: 35%;
+
+        span{
+            font-weight: lighter;
+        }
+
+        h2{
+            font-size: 50px;
+        }
+    }
+
+    .message{
+        margin-top: 30px;
+        position: relative;
+        left: 30%;
+        max-width: 500px;
+
+        p{
+            position: relative;
+            font-size: 17px;
+            font-weight: lighter;
+        }
+
+        p::after{
+            @include after-title($size:140px,$percent:35%);
+        }
+
+        
+    }
+
+    img{
+        margin-top:100px ;
+        max-width: 110px;
+        max-height: 110px;
+    }
+}

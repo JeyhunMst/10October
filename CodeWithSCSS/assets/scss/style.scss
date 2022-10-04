@@ -1,0 +1,21 @@
+//Mixins
+@import "./sections/help/_mixins.scss";
+
+@import "./sections/help/_cards.scss";
+@import "./sections/help/_title.scss";
+
+//Sections
+@import "./sections/_header.scss";
+@import "./sections/_education.scss";
+@import "./sections/_why-code.scss";
+@import "./sections/_statistics.scss";
+@import "./sections/_comments.scss";
+@import "./sections/_partners.scss";
+@import "./sections/_our-students.scss";
+@import "./sections/_questions.scss";
+@import "./sections/_end.scss";
+@import "./sections/_footer.scss";
+
+//Responsivity
+@import "./sections/help/_responsivity992px.scss";
+@import "./sections/help/_responsivity768px.scss";

@@ -1,0 +1,44 @@
+#education{
+    margin-top: 130px;
+
+    .card{
+        min-width: 300px;
+        max-height: 230px;
+        transition: 0.5s;
+        img{
+            max-width: 80px;
+            max-height: 80px;
+        }
+    }
+    
+    .card-body{
+        margin-top: 40px;
+    }
+
+    .title{
+        width: 100px;
+        position: relative;
+        margin-top: 100px;
+
+        .span{
+            font-weight: lighter;
+        }
+    }
+
+    .paragraph{
+        margin-top: 30px;
+        max-width: 500px;
+    }
+
+    .col-6{
+        .container{
+
+            .row{
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
+
+
